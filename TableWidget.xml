@@ -1,0 +1,16 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/
+..\FrameXML\UI.xsd">
+    <Script file="libs\LibStub\LibStub.lua"/>
+    <Script file="libs\LibLogger\LibLogger.lua"/>
+    <Include file="libs\lua-eventsourcing\LibEventSourcing.xml"/>
+
+
+    <Button name="TableWidgetRow" virtual="true">
+		<Size x="40" y="22"/>
+	</Button>
+    <Button name="TableWidgetCell" virtual="true">
+		<Size x="40" y="22"/>
+	</Button>
+
+   <Script file="source\TableWidget.lua"/>
+</Ui>
